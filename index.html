@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Özgür Deniz URAL | Junior Software Developer</title>
+    <meta name="description"
+        content="Özgür Deniz URAL’ın yazılım geliştirme, FiveM script geliştirme, web tasarım, veritabanı ve masaüstü uygulama projelerini içeren kişisel portfolyo sitesi.">
+    <meta property="og:title" content="Özgür Deniz URAL | Junior Software Developer">
+    <meta property="og:description"
+        content="Özgür Deniz URAL’ın yazılım geliştirme, FiveM script geliştirme, web tasarım, veritabanı ve masaüstü uygulama projelerini içeren kişisel portfolyo sitesi.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ozgurdenizural.com/">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Background Elements -->
+    <div class="bg-gradient"></div>
+    <div class="bg-noise"></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar glass-nav">
+        <div class="nav-container">
+            <a href="#hero" class="logo">ÖDU<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#hero">Ana Sayfa</a></li>
+                <li><a href="#hakkimda">Hakkımda</a></li>
+                <li><a href="#projeler">Projeler</a></li>
+                <li><a href="#beceriler">Beceriler</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
+                <li><a href="#cv">CV</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Menüyü Aç/Kapat">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+            <ul class="mobile-nav-links">
+                <li><a href="#hero">Ana Sayfa</a></li>
+                <li><a href="#hakkimda">Hakkımda</a></li>
+                <li><a href="#projeler">Projeler</a></li>
+                <li><a href="#beceriler">Beceriler</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <div class="badge glass-card">Junior Software Developer</div>
+                    <h1 class="hero-title">Yazılımı teknik <span class="text-gradient">derinlik, hız ve
+                            karakterle</span> geliştiriyorum.</h1>
+                    <p class="hero-subtitle">
+                        İzmir’de yaşayan bir Bilgisayar Programcılığı öğrencisiyim. 6 yılı aşkın süredir aktif olarak
+                        yazılım geliştiriyor; C#, Lua, Python, Java, PHP, JavaScript, Veritabanları, WordPress ve FiveM
+                        script geliştirme alanlarında projeler geliştiriyorum.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projeler" class="btn btn-secondary glass-btn">Projelerimi Gör</a>
+                        <a href="#cv" class="btn btn-secondary glass-btn">CV İndir</a>
+                        <a href="https://github.com/freed0M13" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-icon glass-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path
+                                    d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+                                <path d="M9 18c-4.51 2-5-2-7-2" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="profile-card glass-card aero-glass">
+                        <div class="avatar-container">
+                            <img src="public/photos/ozgur.jpg" alt="Özgür Deniz URAL" class="avatar-img">
+                        </div>
+                        <div class="profile-info">
+                            <h2 class="profile-name">Özgür Deniz URAL</h2>
+                            <p class="profile-role">Bilgisayar Programcılığı Öğrencisi ve <br>Freelance Geliştirici
+                            </p>
+                            <div class="profile-meta">
+                                <span class="location">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                                        <circle cx="12" cy="10" r="3" />
+                                    </svg>
+                                    İzmir, Türkiye
+                                </span>
+                                <span class="status">
+                                    <span class="status-dot"></span> Çalışmaya, Öğrenmeye, Geliştirmeye Devam Ediyor
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="code-snippet glass-card">
+                        <div class="window-header">
+                            <div class="window-controls">
+                                <span class="control close"></span>
+                                <span class="control minimize"></span>
+                                <span class="control maximize"></span>
+                            </div>
+                            <div class="window-title">developer.cs</div>
+                        </div>
+                        <pre><code><span class="keyword">public class</span> <span class="class-name">Developer</span> : <span class="class-name">IProblemSolver</span> {
+    <span class="keyword">public string</span> Name { <span class="keyword">get</span>; } = <span class="string">"Özgür Deniz URAL"</span>;
+    <span class="keyword">public int</span> ExperienceYears = <span class="number">6+</span>;
+    
+    <span class="keyword">public void</span> <span class="method">BuildSolutions</span>() {
+        <span class="method">WriteCleanCode</span>();
+        <span class="method">OptimizePerformance</span>();
+        <span class="method">DeliverValue</span>();
+    }
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="hakkimda" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Hakkımda</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-text glass-card aero-glass">
+                        <p>Merhaba, ben <strong>Özgür Deniz Ural</strong>. 19 yaşındayım ve İzmir Ekonomi Üniversitesi
+                            <strong>Bilgisayar Programcılığı</strong> 2. sınıf öğrencisiyim. Çocukluğumdan beri
+                            bilgisayarlarla iç içeyim; yazılıma duyduğum merak, zamanla hem teknik hem de yaratıcı
+                            projeler üretme isteğine dönüştü.
+                        </p>
+
+                        <p>Yazılım yolculuğuma küçük yaşlarda <strong>Visual Basic</strong> ile başladım. Sonrasında web
+                            programlama, oyun geliştirme, sunucu yönetimi ve siber güvenlik gibi farklı alanlara ilgi
+                            duydum. Ortaokul döneminde kendi sosyal medya platformumu kurmayı denedim, Unity ile oyun
+                            projesinde yer aldım ve BİLSEM’de donanım odaklı projeler geliştirdim.</p>
+
+                        <p>Lise döneminde <strong>FiveM ekosistemiyle</strong> tanışmam, yazılım alanında daha aktif
+                            üretim yapmamı sağladı. <strong>Lua tabanlı scriptler</strong> geliştirerek kendi
+                            sunucularımı oluşturdum, farklı projeler ürettim ve bu süreçte sunucu, ağ hizmetleri,
+                            VPS/VDS sistemleri ve sanallaştırma teknolojilerine ilgi duymaya başladım.</p>
+
+                        <p>Bugün <strong>C#, Lua, Python,Java, PHP, JavaScript, SQL ve web teknolojileri</strong>
+                            üzerine kendimi geliştiriyorum. Masaüstü uygulamaları, backend sistemleri, oyun
+                            ekosistemleri ve veritabanı yönetimi alanlarında projeler üretmeye devam ediyorum.
+                            Profesyonel olarak <strong>yazılım ve donanım alanlarında ilerlemeyi</strong> hedefliyor,
+                            öğrendiğim her yeni teknolojiyi gerçek projelerle pekiştirmeye çalışıyorum.</p>
+                    </div>
+
+                    <div class="timeline glass-card">
+                        <h3 class="timeline-title">Eğitim & Deneyim</h3>
+                        <div class="timeline-items">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">6+ Yıl</div>
+                                <h4 class="timeline-role">Yazılım Geliştirici & Topluluk Yöneticisi</h4>
+                                <p class="timeline-org">Bağımsız Projeler</p>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">Şubat 2024 - Devam Ediyor</div>
+                                <h4 class="timeline-role">Kurucu / Script Geliştirici</h4>
+                                <p class="timeline-org">Swan Development</p>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">Eylül 2024 - Devam Ediyor</div>
+                                <h4 class="timeline-role">Önlisans - Bilgisayar Programcılığı</h4>
+                                <p class="timeline-org">İzmir Ekonomi Üniversitesi</p>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">Aralık 2024 - Devam Ediyor</div>
+                                <h4 class="timeline-role">Web Tasarım ve Yazılım Geliştirici</h4>
+                                <p class="timeline-org">Adore Backline</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projeler" class="projects-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Projeler</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Swan CRM -->
+                    <div class="project-card glass-card skeuomorphic-card">
+                        <div class="project-content">
+                            <h3 class="project-title">Swan CRM</h3>
+                            <p class="project-desc">Windows Forms kullanılarak geliştirilen basit ve hızlı bir CRM
+                                uygulaması. Bir CRM sisteminin temel ihtiyaçlarını karşılamak üzere tasarlanmıştır.
+                                Veritabanı olarak Microsoft SQL Server kullanılmaktadır.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">C#</span>
+                                <span class="tech-tag">Windows Forms</span>
+                                <span class="tech-tag">Microsoft SQL Server</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/freed0M13/SwanCRM" target="_blank" rel="noopener noreferrer"
+                                    class="project-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path
+                                            d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+                                        <path d="M9 18c-4.51 2-5-2-7-2" />
+                                    </svg>
+                                    GitHub'da İncele
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Swan Development Projeleri -->
+                    <div class="project-card glass-card skeuomorphic-card">
+                        <div class="project-content">
+                            <h3 class="project-title">WatchMan</h3>
+                            <p class="project-desc">.NET ve ASP.NET Core kullanılarak geliştirilen sistem ve ağ
+                                güvenliği izleme uygulaması. Windows üzerinde arka planda servis olarak çalışacak
+                                şekilde tasarlanmıştır. Ağ trafiği analizi, sistem sağlık takibi, log yönetimi ve tehdit
+                                tespiti gibi işlemleri merkezi bir dashboard üzerinden yönetmeyi hedefler. Veritabanı
+                                olarak SQLite kullanılmaktadır.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">C#</span>
+                                <span class="tech-tag">ASP.NET Core</span>
+                                <span class="tech-tag">SQLite</span>
+                                <span class="tech-tag">SvelteKit</span>
+                                <span class="tech-tag">TailwindCSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/freed0M13/WatchMan" target="_blank"
+                                    rel="noopener noreferrer" class="project-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path
+                                            d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+                                        <path d="M9 18c-4.51 2-5-2-7-2" />
+                                    </svg>
+                                    GitHub'da İncele
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Adore Backline -->
+                    <div class="project-card glass-card skeuomorphic-card">
+                        <div class="project-content">
+                            <h3 class="project-title">Adore Backline Web Sitesi</h3>
+                            <p class="project-desc">Adore Backline’ın web sitesinin sıfırdan tasarlanması, oluşturulması
+                                ve yayınlanması süreçlerinin yönetimi.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Web Tasarım</span>
+                                <span class="tech-tag">Hosting Yönetimi</span>
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://adorebackline.com.tr/" target="_blank" rel="noopener noreferrer"
+                                    class="project-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10" />
+                                        <path
+                                            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                                        <path d="M2 12h20" />
+                                    </svg>
+                                    Web'de İncele
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Regulus Web Sitesi -->
+                    <div class="project-card glass-card skeuomorphic-card">
+                        <div class="project-content">
+                            <h3 class="project-title">Regulus Web Sitesi</h3>
+                            <p class="project-desc">Regulus Mühendislik Bilişim Makina Ticaret LTD. ŞTİ. şirketinin
+                                kurumsal web sitesi ve e-ticaret altyapısının WordPress kullanılarak tasarlanması ve
+                                geliştirilmesi.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">WordPress</span>
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">Web Tasarım</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://regulus.net.tr/" target="_blank" rel="noopener noreferrer"
+                                    class="project-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10" />
+                                        <path
+                                            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                                        <path d="M2 12h20" />
+                                    </svg>
+                                    Web'de İncele
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- inkV FiveM Roleplay Server -->
+                    <div class="project-card glass-card skeuomorphic-card">
+                        <div class="project-content">
+                            <h3 class="project-title">inkV FiveM Roleplay Server</h3>
+                            <p class="project-desc">Topluluk yönetimi ve yazılım geliştirme faaliyetlerinde bulunulan
+                                kapsamlı bir FiveM roleplay sunucusu projesi. Proje, iki ayın sonunda finansal
+                                nedenlerle sonlandırılmıştır.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Lua</span>
+                                <span class="tech-tag">FiveM</span>
+                                <span class="tech-tag">Topluluk Yönetimi</span>
+                                <span class="tech-tag">Sunucu Geliştirme</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Swan Development Projeleri -->
+                    <div class="project-card glass-card skeuomorphic-card">
+                        <div class="project-content">
+                            <h3 class="project-title">Swan Development Projeleri</h3>
+                            <p class="project-desc">FiveM için farklı türlerde scriptlerin tasarlanması ve
+                                geliştirilmesi üzerine kurulu geliştirme projesi. 2024 yılında başlatılan Swan
+                                Development, FiveM ekosistemi için teknik ve kullanıcı odaklı çözümler üretmeyi
+                                hedefler.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Lua</span>
+                                <span class="tech-tag">FiveM</span>
+                                <span class="tech-tag">QBCore/QBOX</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">Web Systems</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="http://swan-development.tebex.io/" target="_blank" rel="noopener noreferrer"
+                                    class="project-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <circle cx="9" cy="21" r="1" />
+                                        <circle cx="20" cy="21" r="1" />
+                                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+                                    </svg>
+                                    Tebex'de İncele
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="beceriler" class="skills-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Beceriler</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Backend -->
+                    <div class="skill-category glass-card">
+                        <div class="category-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <rect width="20" height="8" x="2" y="2" rx="2" ry="2" />
+                                <rect width="20" height="8" x="2" y="14" rx="2" ry="2" />
+                                <line x1="6" x2="6.01" y1="6" y2="6" />
+                                <line x1="6" x2="6.01" y1="18" y2="18" />
+                            </svg>
+                            <h3>Backend</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li><span class="skill-dot"></span>C#</li>
+                            <li><span class="skill-dot"></span>ASP.NET Core</li>
+                            <li><span class="skill-dot"></span>Lua</li>
+                            <li><span class="skill-dot"></span>Python</li>
+                            <li><span class="skill-dot"></span>Java</li>
+                            <li><span class="skill-dot"></span>PHP</li>
+                            <li><span class="skill-dot"></span>MySQL</li>
+                            <li><span class="skill-dot"></span>Microsoft SQL Server</li>
+                            <li><span class="skill-dot"></span>SQLite</li>
+                            <li><span class="skill-dot"></span>Windows Server Yönetimi</li>
+                            <li><span class="skill-dot"></span>RHEL Server Yönetimi</li>
+                        </ul>
+                    </div>
+
+                    <!-- Frontend -->
+                    <div class="skill-category glass-card">
+                        <div class="category-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <rect width="20" height="14" x="2" y="3" rx="2" />
+                                <line x1="8" x2="16" y1="21" y2="21" />
+                                <line x1="12" x2="12" y1="17" y2="21" />
+                            </svg>
+                            <h3>Frontend</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li><span class="skill-dot"></span>HTML</li>
+                            <li><span class="skill-dot"></span>Svelte</li>
+                            <li><span class="skill-dot"></span>JavaScript</li>
+                            <li><span class="skill-dot"></span>CSS</li>
+                            <li><span class="skill-dot"></span>TailwindCSS</li>
+                            <li><span class="skill-dot"></span>WordPress Mimarisi</li>
+                            <li><span class="skill-dot"></span>Responsive Tasarım</li>
+                        </ul>
+                    </div>
+
+                    <!-- Tools -->
+                    <div class="skill-category glass-card">
+                        <div class="category-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path
+                                    d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+                            </svg>
+                            <h3>Araçlar & Platformlar</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li><span class="skill-dot"></span>Git & GitHub</li>
+                            <li><span class="skill-dot"></span>Visual Studio</li>
+                            <li><span class="skill-dot"></span>VS Code</li>
+                            <li><span class="skill-dot"></span>HeidiSQL</li>
+                            <li><span class="skill-dot"></span>Jetbrains Uygulamaları</li>
+                            <li><span class="skill-dot"></span>Microsoft Office Uygulamaları</li>
+                            <li><span class="skill-dot"></span>Adobe Photoshop</li>
+                            <li><span class="skill-dot"></span>Cisco Packet Tracer</li>
+                        </ul>
+                    </div>
+
+                    <!-- Practical Skills -->
+                    <div class="skill-category glass-card wide">
+                        <div class="category-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10" />
+                                <polyline points="12 6 12 12 16 14" />
+                            </svg>
+                            <h3>Pratik Deneyimler</h3>
+                        </div>
+                        <ul class="skill-list grid-list">
+                            <li><span class="skill-dot"></span>Oyun toplulukları üzerinden topluluk yönetimi deneyimi
+                            </li>
+                            <li><span class="skill-dot"></span>Veritabanı destekli masaüstü uygulama geliştirme</li>
+                            <li><span class="skill-dot"></span>WordPress tabanlı web sitesi ve e-ticaret altyapısı
+                                geliştirme</li>
+                            <li><span class="skill-dot"></span>Teknik problem çözme ve sistem kurulum deneyimi</li>
+                            <li><span class="skill-dot"></span>Networking deneyimi sayesinde sunucu kaynaklı donanım ve
+                                yazılım
+                                sorunlarını çözme</li>
+                            <li><span class="skill-dot"></span>Müşteri/kurum odaklı web geliştirme</li>
+                            <li><span class="skill-dot"></span>FiveM script geliştirme</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Languages -->
+                <div class="languages-wrapper glass-card aero-glass mt-4">
+                    <div class="lang-item">
+                        <span class="lang-name">Türkçe</span>
+                        <span class="lang-level">Anadil</span>
+                    </div>
+                    <div class="lang-divider"></div>
+                    <div class="lang-item">
+                        <span class="lang-name">İngilizce</span>
+                        <span class="lang-level">B1</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="iletisim" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">İletişim</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3 class="contact-cta">Güvenilir, kullanışlı ve akılda kalan projeler geliştirmek için
+                            iletişime geçebilirsin.</h3>
+
+                        <div class="contact-cards">
+                            <a href="mailto:ozgurdenizural035@gmail.com" class="contact-card glass-card aero-glass">
+                                <div class="contact-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <rect width="20" height="16" x="2" y="4" rx="2" />
+                                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                                    </svg>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Email</h4>
+                                    <p>ozgurdenizural035@gmail.com</p>
+                                </div>
+                            </a>
+
+                            <a href="https://github.com/freed0M13" target="_blank" rel="noopener noreferrer"
+                                class="contact-card glass-card aero-glass">
+                                <div class="contact-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path
+                                            d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+                                        <path d="M9 18c-4.51 2-5-2-7-2" />
+                                    </svg>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>GitHub</h4>
+                                    <p>freed0M13</p>
+                                </div>
+                            </a>
+
+                            <a href="https://linkedin.com/in/ozgurdenizural" target="_blank" rel="noopener noreferrer"
+                                class="contact-card glass-card aero-glass">
+                                <div class="contact-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path
+                                            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                                        <rect width="4" height="12" x="2" y="9" />
+                                        <circle cx="4" cy="4" r="2" />
+                                    </svg>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>LinkedIn</h4>
+                                    <p>ozgurdenizural</p>
+                                </div>
+                            </a>
+
+                            <a href="https://www.instagram.com/freed0m13_/" target="_blank" rel="noopener noreferrer"
+                                class="contact-card glass-card aero-glass">
+                                <div class="contact-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                        <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                                    </svg>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Instagram</h4>
+                                    <p>freed0m13_</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CV Section -->
+        <section id="cv" class="cv-section section-padding" style="padding-top: 20px;">
+            <div class="container cv-container">
+                <div class="cv-card glass-card aero-glass">
+                    <div class="cv-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z" />
+                            <polyline points="14 2 14 8 20 8" />
+                            <path d="M12 18v-6" />
+                            <path d="m9 15 3 3 3-3" />
+                        </svg>
+                    </div>
+                    <h2 class="cv-title">CV / Özgeçmiş</h2>
+                    <p class="cv-desc">Eğitim, deneyim ve yeteneklerimle ilgili tüm detayları içeren güncel özgeçmiş
+                        dosyalarıma aşağıdan ulaşabilirsiniz.</p>
+
+                    <div class="cv-buttons">
+                        <a href="/cv/Ozgur-Deniz-URAL-Ozgecmis.pdf" class="btn btn-primary glass-btn skeuomorphic-btn"
+                            target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                <polyline points="7 10 12 15 17 10" />
+                                <line x1="12" x2="12" y1="15" y2="3" />
+                            </svg>
+                            Türkçe Özgeçmiş
+                        </a>
+                        <a href="/cv/Ozgur-Deniz-URAL-Resume.pdf" class="btn btn-primary glass-btn skeuomorphic-btn"
+                            target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                <polyline points="7 10 12 15 17 10" />
+                                <line x1="12" x2="12" y1="15" y2="3" />
+                            </svg>
+                            English Resume
+                        </a>
+                    </div>
+
+                    <p class="cv-note">Her iki CV dosyasında da portfolyo sitesi ve GitHub profil bağlantısı yer
+                        almaktadır.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="glass-footer">
+        <div class="container footer-content">
+            <p>© 2026 Özgür Deniz URAL</p>
+            <div class="footer-socials">
+                <a href="https://github.com/freed0M13" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+                        <path d="M9 18c-4.51 2-5-2-7-2" />
+                    </svg>
+                </a>
+                <a href="https://linkedin.com/in/ozgurdenizural" target="_blank" rel="noopener noreferrer"
+                    aria-label="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                        <rect width="4" height="12" x="2" y="9" />
+                        <circle cx="4" cy="4" r="2" />
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/freed0m13_/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                        <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

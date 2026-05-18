@@ -1,0 +1,6 @@
+# Allow all crawlers, including AI and search engine bots, to access all content.
+User-agent: *
+Allow: /
+
+# Path to the sitemap
+Sitemap: https://www.ozgurdenizural.com/sitemap.xml 
